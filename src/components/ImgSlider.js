@@ -23,6 +23,21 @@ function ImgSlider() {
             <Wrap>
                 <img src="/images/slider-badag.jpg" />
             </Wrap>
+            <Wrap>
+                <img src="/images/slider-simpsons.jpg" />
+            </Wrap>
+            <Wrap>
+                <img src="/images/slider-hawkeye.jpg" />
+            </Wrap>
+            <Wrap>
+                <img src="/images/slider-shangchi.jpg" />
+            </Wrap>
+            <Wrap>
+                <img src="/images/slider-olaf.jpg" />
+            </Wrap>
+            <Wrap>
+                <img src="/images/slider-jungle.jpg" />
+            </Wrap>
         </Carousel>
     )
 }
