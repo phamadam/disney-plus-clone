@@ -81,7 +81,7 @@ const Wrap = styled.div`
         &:hover {
             border: 4px solid rgba(249, 249, 249, 0.8);
         }
-        
+
     }
 
 `
