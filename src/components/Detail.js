@@ -11,7 +11,20 @@ function Detail() {
                 <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7AEE1F05D10FC37C873176AAA26F777FC1B71E7A6563F36C6B1B497CAB1CEC2/scale?width=1440&aspectRatio=1.78" />
             </ImageTitle>
             <Controls>
+                <PlayButton>
+                    <img src="/images/play-icon-black.png" />
+                    <span>PLAY</span>
+                </PlayButton>
+                <TrailerButton>
+                    <img src="/images/play-icon-white.png" />
+                    <span>TRAILER</span>
+                </TrailerButton>
+                <AddButton>
 
+                </AddButton>
+                <GroupWatchButton>
+
+                </GroupWatchButton>
             </Controls>
         </Container>
     )
@@ -55,5 +68,24 @@ const ImageTitle = styled.div`
 `
 
 const Controls = styled.div`
+    display: flex;
+`
+
+const PlayButton = styled.button`
+    border-radius: 4px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+`
+
+const TrailerButton = styled.button`
+
+`
+
+const AddButton = styled.button`
+
+`
+
+const GroupWatchButton = styled.button`
 
 `
